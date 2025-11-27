@@ -1,13 +1,33 @@
 * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
   background-color: #f0e2c5;
   color: #49281a;
 }
 
-h1 {
+/* header section */
+header {
+  /* border: 2px solid #000; */
+  width: 80%;
+  margin: 0 auto;
+  padding: 150px 0;
+  text-align: center;
+}
+header h1 {
   font-family: "Playfair Display SC", serif;
   font-size: 3em;
 }
-p,
-a {
-  font-family: "Lora", serif;
+header p {
+  font-family: "Lato", serif;
+  margin: 20px 0 60px;
+}
+
+header a {
+  font-family: "Lato", serif;
+  background-color: #49281a;
+  color: #f0e2c5;
+  padding: 20px 50px;
+  text-decoration: none;
+  border-radius: 9px;
 }
